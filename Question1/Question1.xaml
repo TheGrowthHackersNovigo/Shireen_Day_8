@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Question1" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="887,2296" sap2010:WorkflowViewState.IdRef="Question1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Question1" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="887,2277" sap2010:WorkflowViewState.IdRef="Question1_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -40,69 +40,64 @@
     <sco:Collection x:TypeArguments="AssemblyReference">
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
       <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
       <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Data</AssemblyReference>
       <AssemblyReference>System.Data.Common</AssemblyReference>
       <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
       <AssemblyReference>System.Drawing</AssemblyReference>
       <AssemblyReference>System.Drawing.Common</AssemblyReference>
       <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
       <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Net.Mail</AssemblyReference>
       <AssemblyReference>System.ObjectModel</AssemblyReference>
       <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
       <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
-      <AssemblyReference>System.Memory.Data</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
-      <AssemblyReference>NPOI</AssemblyReference>
-      <AssemblyReference>System.Console</AssemblyReference>
-      <AssemblyReference>System.Security.Permissions</AssemblyReference>
-      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
-      <AssemblyReference>System.ComponentModel</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>System.Private.Uri</AssemblyReference>
-      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
-      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
-      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
-      <AssemblyReference>PresentationFramework</AssemblyReference>
-      <AssemblyReference>WindowsBase</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
-      <AssemblyReference>System.Private.Xml</AssemblyReference>
-      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
-      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
-      <AssemblyReference>System.Linq.Async</AssemblyReference>
-      <AssemblyReference>System.Collections</AssemblyReference>
-      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
-      <AssemblyReference>UiPath.Platform</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Question1" sap:VirtualizedContainerService.HintSize="496,2231" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="• Create a data table with the following Data Set &#xA;• Output the value of the DT to console (Write line) &#xA;• Display the 5th record of DT in a Message Box &#xA;• Add 4 new rows to the same data table and write the output to csv file &#xA;• Display only the employee ID for records whose Location is Bangalore and Employee ID is greater than 200 in message box &#xA;• Create another data table with 3 new rows of same schema and merge it with existing Filtered Data table and then display the output in message box. &#xA;" DisplayName="Question1" sap:VirtualizedContainerService.HintSize="416,2212" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_Employee" />
       <Variable x:TypeArguments="x:String" Name="EmployeeDetails" />
       <Variable x:TypeArguments="x:String" Name="FifthRecord" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_AddedEmployees" />
-      <Variable x:TypeArguments="x:String" Name="OutputCsv">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">Data\Output\Question2</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="Data\Output\Question2" Name="OutputCsv" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_FilteredEmployee" />
       <Variable x:TypeArguments="x:String" Name="FilteredEmployee" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_NewWithFiltered" />
@@ -111,41 +106,46 @@
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message : Execution started" sap:VirtualizedContainerService.HintSize="434,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Execution started&quot;]">
+    <ui:LogMessage sap2010:Annotation.AnnotationText="RPA employees execution started" DisplayName="Log Message : Execution started" sap:VirtualizedContainerService.HintSize="354,99" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;RPA employees execution started&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <ui:BuildDataTable DataTable="[dt_Employee]" DisplayName="Build Data Table : Employee details" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Employee_x0020_ID&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;First_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Last_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Location&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Technology&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;312&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Rajesh&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Kumar&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;456&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Vignesh&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Vicky&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Delhi&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;714&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Aravind&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Balaji&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Delhi&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;529&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Raheem&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Cornwall&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Mumbai&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Power Automate&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;146&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Abdul&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Mohamad&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Automation Anywhere&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;325&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Divya&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Ganesh&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Mumbai&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;483&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Shruthi&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Ram&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Hyderabad&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Automation Anywhere&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;65&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Bharath&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Arun&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Noida&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;186&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Anand&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Radhakrishnan&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;334&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Sathish&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Kumar&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;&lt;/NewDataSet&gt;">
+    <ui:BuildDataTable sap2010:Annotation.AnnotationText="Build employee data table with id,first name,last name,location and technology&#xA;&#xA;" DataTable="[dt_Employee]" DisplayName="Build Data Table : Employee details" sap:VirtualizedContainerService.HintSize="354,159" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Employee_x0020_ID&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;First_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Last_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Location&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Technology&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;312&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Rajesh&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Kumar&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;456&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Vignesh&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Vicky&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Delhi&lt;/Location&gt;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;714&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Aravind&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Balaji&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Delhi&lt;/Location&gt;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;529&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Raheem&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Cornwall&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Mumbai&lt;/Location&gt;&#xA;    &lt;Technology&gt;Power Automate&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;146&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Abdul&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Mohamad&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xA;    &lt;Technology&gt;Automation Anywhere&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;325&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Divya&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Ganesh&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Mumbai&lt;/Location&gt;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;483&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Shruthi&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Ram&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Hyderabad&lt;/Location&gt;&#xA;    &lt;Technology&gt;Automation Anywhere&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;65&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Bharath&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Arun&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Noida&lt;/Location&gt;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;186&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Anand&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Radhakrishnan&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;334&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Sathish&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Kumar&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:BuildDataTable>
-    <ui:OutputDataTable DataTable="[dt_Employee]" DisplayName="Output Data Table as Text : Employee datatable" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[EmployeeDetails]">
+    <ui:OutputDataTable sap2010:Annotation.AnnotationText="Converting employee data table as text" DataTable="[dt_Employee]" DisplayName="Output Data Table as Text : Employee datatable" sap:VirtualizedContainerService.HintSize="354,99" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[EmployeeDetails]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:OutputDataTable>
-    <WriteLine DisplayName="Write Line : Employee data table" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[EmployeeDetails]">
+    <WriteLine sap2010:Annotation.AnnotationText="Writing the employee data table to console&#xA;" DisplayName="Write Line : Employee data table" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[EmployeeDetails]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </WriteLine>
-    <Assign DisplayName="Assign : Records of fifth row" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap2010:Annotation.AnnotationText="Retrieving the records of 5th row using string manipulation and storing it in a variable&#xA;" DisplayName="Assign : Records of fifth row" sap:VirtualizedContainerService.HintSize="354,129" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[FifthRecord]</OutArgument>
       </Assign.To>
@@ -154,37 +154,49 @@
       </Assign.Value>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box : Display fifth row records " sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Fifth row records are :&quot;+FifthRecord]">
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="Displaying fifth row records " AutoCloseAfter="00:00:00" DisplayName="Message Box : Display fifth row records " sap:VirtualizedContainerService.HintSize="354,88" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Fifth row records are :&quot;+FifthRecord]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:MessageBox>
-    <ui:BuildDataTable DataTable="[dt_AddedEmployees]" DisplayName="Build Data Table : Additional 4 Employee  details" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_2" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Employee_x0020_ID&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;First_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Last_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Location&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Technology&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;801&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Rencita&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Monteiro&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Mangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;802&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Sudeen&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Shetty&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;803&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Dhruv&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Shetty&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Mangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Power Automate&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;804&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Shireen&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;M&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;&lt;/NewDataSet&gt;">
+    <ui:BuildDataTable sap2010:Annotation.AnnotationText="Building the data table with id, first name, last name ,location and technology for additional 4 employees&#xA;" DataTable="[dt_AddedEmployees]" DisplayName="Build Data Table : Additional 4 Employee  details" sap:VirtualizedContainerService.HintSize="354,129" sap2010:WorkflowViewState.IdRef="BuildDataTable_2" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Employee_x0020_ID&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;First_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Last_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Location&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Technology&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;801&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Rencita&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Monteiro&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Mangalore&lt;/Location&gt;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;802&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Sudeen&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Shetty&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;803&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Dhruv&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Shetty&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Mangalore&lt;/Location&gt;&#xA;    &lt;Technology&gt;Power Automate&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;804&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Shireen&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;M&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:BuildDataTable>
-    <ui:MergeDataTable Destination="[dt_AddedEmployees]" DisplayName="Merge Data Table : Addidtional employee datatable with the employee data table" sap:VirtualizedContainerService.HintSize="434,165" sap2010:WorkflowViewState.IdRef="MergeDataTable_1" MissingSchemaAction="Add" Source="[dt_Employee]" />
-    <ui:AppendWriteCsvFile PathResource="{x:Null}" AddHeaders="True" CsvAction="Write" DataTable="[dt_AddedEmployees]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Write CSV : Merged Datatable" FilePath="[OutputCsv]" sap:VirtualizedContainerService.HintSize="434,234" sap2010:WorkflowViewState.IdRef="AppendWriteCsvFile_1" ShouldQuote="True">
+    <ui:MergeDataTable sap2010:Annotation.AnnotationText="Merging the employee data table with newly created data table" Destination="[dt_AddedEmployees]" DisplayName="Merge Data Table : Addidtional employee datatable with the employee data table" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="MergeDataTable_1" MissingSchemaAction="Add" Source="[dt_Employee]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
+    </ui:MergeDataTable>
+    <ui:AppendWriteCsvFile PathResource="{x:Null}" AddHeaders="True" sap2010:Annotation.AnnotationText="Writing the merged data table to a CSV file" CsvAction="Write" DataTable="[dt_AddedEmployees]" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Write CSV : Merged Datatable" FilePath="[OutputCsv]" sap:VirtualizedContainerService.HintSize="354,99" sap2010:WorkflowViewState.IdRef="AppendWriteCsvFile_1" ShouldQuote="True">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </ui:AppendWriteCsvFile>
-    <ui:FilterDataTable DataTable="[dt_AddedEmployees]" DisplayName="Filter Data Table : Employee in bangalore and id greater than 200" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="434,193" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[dt_FilteredEmployee]" SelectColumnsMode="Remove">
+    <ui:FilterDataTable sap2010:Annotation.AnnotationText="Filtering the employees whose location is Bangalore and whose Employee id is greater than 200" DataTable="[dt_AddedEmployees]" DisplayName="Filter Data Table : Employee in bangalore and id greater than 200" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="354,99" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[dt_FilteredEmployee]" SelectColumnsMode="Remove">
       <ui:FilterDataTable.Filters>
         <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
           <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
@@ -210,25 +222,70 @@
           <x:Null />
         </scg:List>
       </ui:FilterDataTable.SelectColumns>
-    </ui:FilterDataTable>
-    <ui:OutputDataTable DataTable="[dt_FilteredEmployee]" DisplayName="Output Data Table as Text : Filtered Employees" sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="OutputDataTable_2" Text="[FilteredEmployee]" />
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box : Display employee who is from Bangalore and whose id is greater than 200" sap:VirtualizedContainerService.HintSize="434,117" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[FilteredEmployee]" />
-    <ui:BuildDataTable DataTable="[dt_NewWithFiltered]" DisplayName="Build Data Table : Adding 3 more employees" sap:VirtualizedContainerService.HintSize="434,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Employee_x0020_ID&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;First_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Last_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Location&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Technology&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;805&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Rahul&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Rai&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Mangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;806&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Seetha&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Pinto&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;  &lt;TableName&gt;&#xD;&#xA;    &lt;Employee_x0020_ID&gt;807&lt;/Employee_x0020_ID&gt;&#xD;&#xA;    &lt;First_x0020_Name&gt;Varun&lt;/First_x0020_Name&gt;&#xD;&#xA;    &lt;Last_x0020_Name&gt;Damodara&lt;/Last_x0020_Name&gt;&#xD;&#xA;    &lt;Location&gt;Mangalore&lt;/Location&gt;&#xD;&#xA;    &lt;Technology&gt;Power Automate&lt;/Technology&gt;&#xD;&#xA;  &lt;/TableName&gt;&#xD;&#xA;&lt;/NewDataSet&gt;">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-    </ui:BuildDataTable>
-    <ui:MergeDataTable Destination="[dt_NewWithFiltered]" DisplayName="Merge Data Table : Filtered data table with the newly created 3 details" sap:VirtualizedContainerService.HintSize="434,165" sap2010:WorkflowViewState.IdRef="MergeDataTable_2" MissingSchemaAction="Add" Source="[dt_FilteredEmployee]" />
-    <ui:OutputDataTable DataTable="[dt_NewWithFiltered]" DisplayName="Output Data Table as Text : New employee with filtered" sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="OutputDataTable_3" Text="[NewWithFiltered]" />
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box : Display employee who is from Bangalore and whose id is greater than 200 and newly added 3 records" sap:VirtualizedContainerService.HintSize="434,117" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[NewWithFiltered]" />
-    <ui:LogMessage DisplayName="Log Message : Execution completed" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Execution completed&quot;]">
+    </ui:FilterDataTable>
+    <ui:OutputDataTable sap2010:Annotation.AnnotationText="Converting the filtered table into text" DataTable="[dt_FilteredEmployee]" DisplayName="Output Data Table as Text : Filtered Employees" sap:VirtualizedContainerService.HintSize="354,99" sap2010:WorkflowViewState.IdRef="OutputDataTable_2" Text="[FilteredEmployee]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:OutputDataTable>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="Displaying employee who is from Bangalore and whose id is greater than 200" AutoCloseAfter="00:00:00" DisplayName="Message Box : Display employee who is from Bangalore and whose id is greater than 200" sap:VirtualizedContainerService.HintSize="354,99" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[FilteredEmployee]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:MessageBox>
+    <ui:BuildDataTable sap2010:Annotation.AnnotationText="Building data table with the same columns for four more employees&#xA;" DataTable="[dt_NewWithFiltered]" DisplayName="Build Data Table : Adding 3 more employees" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Employee_x0020_ID&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;First_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Last_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Location&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Technology&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;805&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Rahul&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Rai&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Mangalore&lt;/Location&gt;&#xA;    &lt;Technology&gt;Blue Prism&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;806&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Seetha&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Pinto&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Bangalore&lt;/Location&gt;&#xA;    &lt;Technology&gt;UiPath&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;  &lt;TableName&gt;&#xA;    &lt;Employee_x0020_ID&gt;807&lt;/Employee_x0020_ID&gt;&#xA;    &lt;First_x0020_Name&gt;Varun&lt;/First_x0020_Name&gt;&#xA;    &lt;Last_x0020_Name&gt;Damodara&lt;/Last_x0020_Name&gt;&#xA;    &lt;Location&gt;Mangalore&lt;/Location&gt;&#xA;    &lt;Technology&gt;Power Automate&lt;/Technology&gt;&#xA;  &lt;/TableName&gt;&#xA;&lt;/NewDataSet&gt;">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:BuildDataTable>
+    <ui:MergeDataTable sap2010:Annotation.AnnotationText="Merging the filtered data table with the newly created one" Destination="[dt_NewWithFiltered]" DisplayName="Merge Data Table : Filtered data table with the newly created 3 details" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="MergeDataTable_2" MissingSchemaAction="Add" Source="[dt_FilteredEmployee]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:MergeDataTable>
+    <ui:OutputDataTable sap2010:Annotation.AnnotationText="Converting the newly merged data table to text" DataTable="[dt_NewWithFiltered]" DisplayName="Output Data Table as Text : New employee with filtered" sap:VirtualizedContainerService.HintSize="354,143" sap2010:WorkflowViewState.IdRef="OutputDataTable_3" Text="[NewWithFiltered]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:OutputDataTable>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="Displaying employee who is from Bangalore and whose id is greater than 200 with newly added 3 employees" AutoCloseAfter="00:00:00" DisplayName="Message Box : Display employee who is from Bangalore and whose id is greater than 200 and newly added 3 records" sap:VirtualizedContainerService.HintSize="354,159" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[NewWithFiltered]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:MessageBox>
+    <ui:LogMessage sap2010:Annotation.AnnotationText="RPA employees execution Completed" DisplayName="Log Message : Execution completed" sap:VirtualizedContainerService.HintSize="354,90" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;RPA employees execution Completed&quot;]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
